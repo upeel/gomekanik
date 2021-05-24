@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootlayout"
+    tools:context="com.upel.gomek.MainActivity"
+    android:background="@color/regisbtn">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GO-MEKANIK"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bengkel"
+            android:textSize="23sp"
+            android:layout_marginLeft="67sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhwil Tech"
+            android:layout_marginLeft="68sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_bengkelapp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/bottext"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_above="@+id/txt_bengkelapp"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:background="@drawable/loginbtn_bg"
+            android:textColor="@android:color/white"
+            android:text="Masuk"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+           />
+        <Button
+            android:id="@+id/regisbtn"
+            android:background="@drawable/regisbtn_bg"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Daftar"
+            android:layout_marginLeft="6dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

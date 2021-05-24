@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "535821969727",
+    "firebase_url": "https://gomek1-9ff62.firebaseio.com",
+    "project_id": "gomek1-9ff62",
+    "storage_bucket": "gomek1-9ff62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535821969727:android:8ef9e3bba77c8bf1",
+        "android_client_info": {
+          "package_name": "com.upel.gomek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535821969727-vs783kgi74nsfvbhhnto5lbrpigvvk8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.upel.gomek",
+            "certificate_hash": "8451d600d5f453022de9e315115f4570061010dd"
+          }
+        },
+        {
+          "client_id": "535821969727-c2864bjauslpnig5gk312b6ufj8e16u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4wo5smDm0bOEM7Ogj3dgC81y4eLUvEUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535821969727-c2864bjauslpnig5gk312b6ufj8e16u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
